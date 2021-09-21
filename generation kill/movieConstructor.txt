@@ -1,0 +1,93 @@
+movieConstructor('.app', {
+	title: 'Поколение убийц',
+	background: 'generation kill\pokolenie-ubiyc_0.jpg',
+	favicon: 'generation kill\Image00002.png',
+	fontColor: '#ffffff',
+	backgroundColor: '#a49381	',
+	subColor: '#d2171d',
+	header: {
+		logo: 'generation kill\Image00002.png',
+		social: [
+			{
+				title: 'Website',
+				link: 'https://www.hbo.com/generation-kill/',
+				image: 'generation kill/social/HBO_logo.svg.png'
+			},
+
+		],
+		menu: [
+			{
+				title: 'Описание',
+				link: '#',
+			},
+			{
+				title: 'Трейлер',
+				link: '#',
+			},
+			{
+				title: 'Отзывы',
+				link: '#',
+			}
+		]
+	},
+	main: {
+		genre: '2008, драма, военный',
+		rating: 8.5,
+		description: 'Вторжение американцев в Ирак в 2003 году глазами рядовых пехотинцев армии США. В центре повествования Первый Разведывательный батальон морской пехоты. В лагерь Матильда, Кувейт, прибывает журналист Эван Райт в исполнении старого знакомого Ли Тергесона, который будет сопровождать войска в их наступлении на столицу – город Багдад. Два месяца войны без прикрас.',
+		trailer: 'https://www.youtube.com/watch?v=jm8SX2kzHpc',
+		slider: [
+			{
+				img: 'generation kill/series/series-1.jpg',
+				title: 'Контакт/',
+				subtitle: 'Серия №1',
+			},
+			{
+				img: 'generation kill/series/series-2.jpg',
+				title: 'Колыбель цивилизации',
+				subtitle: 'Серия №2',
+			},
+			{
+				img: 'generation kill/series/series-3.jpg',
+				title: 'Круто',
+				subtitle: 'Серия №3',
+			},
+			{
+				img: 'generation kill/series/series-4.jpg',
+				title: 'Боевая взбучка',
+				subtitle: 'Серия №4',
+			},
+			{
+				img: 'generation kill/series/series-5.jpg',
+				title: 'Горящий пёс',
+				subtitle: 'Серия №5',
+			},
+			{
+				img: 'generation kill/series/series-6.jpg',
+				title: 'Будь начеку',
+				subtitle: 'Серия №6',
+			},
+			{
+				img: 'generation kill/series/series-7.jpg',
+				title: 'Бомба в саду',
+				subtitle: 'Серия №7',
+			}
+		]
+	},
+	footer: {
+		copyright: '© 2008 Generation Kill. All right reserved.',
+		menu: [
+			{
+				title: 'Privacy Policy',
+				link: '#',
+			},
+			{
+				title: 'Terms of Service',
+				link: '#',
+			},
+			{
+				title: 'Legal',
+				link: '#',
+			},
+		]
+	}
+});
